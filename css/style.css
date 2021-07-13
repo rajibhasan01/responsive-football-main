@@ -1,0 +1,75 @@
+/*---------------------------------
+..........Google Font..........
+----------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/*---------------------------------
+.........top banner style..........
+-----------------------------------*/
+
+.top-banner{
+    background-color: #2D25A0;
+    width: 1440px;
+    height: 677px;
+    display: flex;
+    justify-content: center;
+   
+}
+.banners{
+    display: flex;
+}
+
+.banner-info{
+    margin: 207px 0px 169px 156px;
+    width: 485px;
+    height: 230px;
+}
+    
+.banner-info .banner-title{
+    font-weight: 700;
+    font-size: 64px;
+    color: #FFFFFF;
+    margin: 0;
+    
+
+}
+
+.live-btn {
+    background-color: #E02C6D;
+    width: 168px;
+    height: 44px;  
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+   
+    
+    
+}
+.live-btn a{
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 10px 8px 10px 24px ;
+   
+    text-decoration: none;
+}
+
+.live-btn .fa-arrow-right{
+    color: white;
+    padding-right: 24px;
+}
+.banner-image{
+    width: 556.01px;
+    height: 438px;
+    margin:135px 140px 86px 102px;
+}
+.banner-image img{
+    width: 100%;
+}
