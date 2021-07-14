@@ -91,7 +91,7 @@ body{
 }
 
 .player-album{
-    margin: 70px 195px 165px 195px;
+    margin: 70px 195px 70px 195px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-row-gap:27px;
@@ -135,4 +135,50 @@ body{
     margin-top: 10px;
     
  
+}
+
+/*-----------------------------------
+............Footer Style............
+-----------------------------------*/
+.footer-container{
+    background-color:#e4eaec5b;
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-box{
+    margin-top: 80px;
+    margin-bottom: 63px;
+    width: 483.87px;
+    height: 213px;
+}
+.footer-image img{
+    width: 483.87px;
+    height: 110px;
+    margin-bottom: 0px;
+}
+
+.footer-social-media-icon{
+    text-align: center;
+    margin:20px 156px;
+    width: 170px;
+    height: 32px;
+    
+}
+.footer-text{
+    text-align: center;
+    margin: 0px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.footer-social-media-icon i{
+    padding:8px;
+    border-radius: 14px;
+    background-color: rgb(227, 230, 233);
+}
+.footer-social-media-icon a{
+    text-decoration: none;
+    color: black;
 }
