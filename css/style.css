@@ -340,6 +340,8 @@ body{
 -----------------------------------*/
 
 @media only screen and (max-width:688px){
+
+    /* -----------------top banner modify-------------- */
     .top-banner{
         background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
         background-size: 400% 400%;
@@ -387,7 +389,7 @@ body{
     }
 
 
-    /* player album */
+    /*------------ player album------------*/
 
 .container{
     background-color:#e4eaec5b;
@@ -452,7 +454,7 @@ body{
 
 }
 
-
+/* -----------------ranking table modify-------------- */
 
 .new{
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; 
@@ -501,7 +503,7 @@ body{
 }
 
 
-
+/* -----------------footer modify-------------- */
 
 .footer-box{
     margin-top: 80px;
@@ -538,7 +540,7 @@ body{
     color: black;
 }
 
-
+/* -----------------paertner sponser modify-------------- */
 
 .partner{
     margin-top: 100px;
@@ -560,9 +562,183 @@ body{
   padding:15px 15px 30px 20px;
 
 }
-
-
-
-
 }
+/*-----------------------------------
+.............Tablet Device...........
+-----------------------------------*/
+
+@media only screen and (min-width: 688px) and (max-width:992px) {
+
+    /* -----------------top banner modify-------------- */
+    .top-banner{
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        height: 677px;
+        display: flex;
+        justify-content: center;
+        animation: gradient 15s ease infinite;
+        width: 100%;
+    }
+    
+
+    .banners{
+        display: flex;
+        justify-content: center;        
+        margin-top:50px ;
+    }
+    
+    .banner-info{
+        margin-top: 180px;
+        margin-bottom: 10px;
+        margin-left: 200px;
+        margin-right: 0px;
+        width: 10%;
+    }
+    
+    .banner-info span{
+        color: crimson;
+    }
+    
+        
+    .banner-title{
+        font-weight: 700;
+        font-size: 2rem;
+        color: #FFFFFF;
+        margin: 0;
+    
+        
+    }
+    .banner-image img{
+        width: 320px;
+        height: 280px;
+        margin-top:50px ;
+        margin-left: 130px;
+        
+    }
+
+    /* -----------------player album modify-------------- */
+
+    .player-album{
+        margin: 50px 50px 70px 10px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-row-gap:27px;
+        
+        
+    }
+
+    .player{
+        padding: 15px;
+        
+        width: 200px;
+        height: 400px;
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;  
+        overflow: hidden;
+        border-radius: 5px;
+        
+    }
+
+    .player .image{
+        width: 200px;
+        height: 200px; 
+        
+    }
+    .image img{
+        width: 100%;
+        border-radius: 5px;
+    }
+    
+    
+    .player-detail{
+        width: 200px;
+        margin-top: 15px;
+    }
+    .player .player-detail h2{
+        font-weight: 700;
+        font-size: 28px;
+        margin-top: 16px;
+        margin-bottom: 0px;
+        font-family: 'Roboto', sans-serif;
+        
+    }
+    .player .player-detail p{
+        font-weight: 400;
+        font-size: 16px;  
+        margin-top: 10px;
+        
+    
+    }
+
+    /* -----------------ranking table modify-------------- */
+    .new{
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; 
+        background-color: #191970; 
+        color: #ffffff;
+    
+    }
+    
+    .contain-info{
+        margin-top: 25%;
+    }
+    .content-table {
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-size: 1.2em;
+        min-width: 250px;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0,0.15);
+        border-radius:15px;
+        height: 486px;
+    }
+    
+    .content-table thead {
+        background-color: ;
+        color: rgb(116, 112, 112);
+        font-weight: 300;
+        font-size: 0.9em;
+        
+    }
+    .content-table th, .content-table td{
+        padding: 5px 8px 5px 10px;
+    }
+    .content-table img{
+        width: 70%;
+    }
+    
+    
+    
+    .ranking-table{
+        margin: 50px 0px 50px 0px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap:27px;
+    
+    
+    }
+    /* -----------------partner sponser modify-------------- */
+    
+    .partner{
+        margin-top: 100px;
+        background-color: white;
+        margin-bottom: 100px;
+        background-color: linen;
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; 
+    }
+    
+    .partner-title{
+        margin-top:15px ;
+        margin-left: 0px;
+    }
+    .partner-title span{
+        color: crimson;
+    }
+    
+    .partners-images img{
+      padding:15px 150px 30px 100px;
+    
+    }
+    }
+    
+}
+
  
