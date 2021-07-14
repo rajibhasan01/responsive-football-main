@@ -279,3 +279,29 @@ body{
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
 }
+
+
+
+
+
+/* partners style design */
+.partner{
+    margin-top: 100px;
+    background-color: white;
+    margin-bottom: 100px;
+    background-color: linen;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; 
+}
+
+.partner-title{
+    margin-top:15px ;
+}
+.partner-title span{
+    color: crimson;
+}
+
+.partners-images img{
+  padding:15px 10px 30px 10px;
+
+}
+
