@@ -22,12 +22,9 @@ body{
     height: 677px;
     display: flex;
     justify-content: space-evenly;
-    animation: gradient 15s ease infinite;
+    animation: gradient 12s ease infinite;
    
 }
-
-
-
 
 
 .banners{
@@ -184,7 +181,6 @@ body{
 
 
 
-
 /*-----------------------------------
 ........Partner Style Design.........
 -----------------------------------*/
@@ -336,3 +332,237 @@ body{
 
 
 
+/*-----------------------------------
+.............Media Queries...........
+-----------------------------------*/
+/*-----------------------------------
+.............Mobile Device...........
+-----------------------------------*/
+
+@media only screen and (max-width:688px){
+    .top-banner{
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        height: 677px;
+        display: flex;
+        flex-direction: column;
+        animation: gradient 15s ease infinite;
+        width: 100%;
+    }
+    
+
+    .banners{
+        display: flex;
+        flex-direction: column;
+        margin-top:50px ;
+    }
+    
+    .banner-info{
+        margin-top: 180px;
+        margin-bottom: 10px;
+        margin-left: 50px;
+        margin-right: 0px;
+        width: 30%;
+    }
+    
+    .banner-info span{
+        color: crimson;
+    }
+    
+        
+    .banner-title{
+        font-weight: 700;
+        font-size: 2rem;
+        color: #FFFFFF;
+        margin: 0;
+    
+        
+    }
+    .banner-image img{
+        width: 300px;
+        height: 300px;
+        margin-top:-100px ;
+        margin-left: 10px;
+        
+    }
+
+
+    /* player album */
+
+.container{
+    background-color:#e4eaec5b;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+    
+    
+}
+
+.player-album{
+    margin: 50px 50px 70px 10px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-row-gap:27px;
+    
+    
+}
+.player{
+    padding: 15px;
+    
+    width: 250px;
+    height: 400px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;  
+    overflow: hidden;
+    border-radius: 5px;
+    
+}
+
+
+.player .image{
+    width: 250px;
+    height: 200px; 
+    
+}
+.image img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+.player-detail{
+    width: 250px;
+    margin-top: 30px;
+}
+.player .player-detail h2{
+    font-weight: 700;
+    font-size: 28px;
+    margin-top: 16px;
+    margin-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.player .player-detail p{
+    font-weight: 400;
+    font-size: 16px;  
+    margin-top: 10px;
+    
+
+}
+
+
+
+.new{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; 
+    background-color: #191970; 
+    color: #ffffff;
+
+}
+
+.contain-info{
+    margin-top: 25%;
+}
+.content-table {
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1.2em;
+    min-width: 200px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0,0.15);
+    border-radius:15px;
+    height: 486px;
+}
+
+.content-table thead {
+    background-color: ;
+    color: rgb(116, 112, 112);
+    font-weight: 300;
+    font-size: 0.9em;
+    
+}
+.content-table th, .content-table td{
+    padding: 5px 8px 5px 10px;
+}
+.content-table img{
+    width: 70%;
+}
+
+
+
+.ranking-table{
+    margin: 50px 0px 50px 0px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-row-gap:27px;
+
+
+}
+
+
+
+
+.footer-box{
+    margin-top: 80px;
+    margin-bottom: 63px;
+    width: 300px;
+    height: 113px;
+}
+.footer-image img{
+    width: 200px;
+    height: 60px;
+    margin-bottom: 0px;
+}
+
+.footer-social-media-icon{
+    text-align: center;
+    margin:20px 40px;
+    width: 170px;
+    height: 32px;
+    
+}
+.footer-text{
+    text-align: center;
+    margin: 5px 10px 5px 0px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.footer-social-media-icon i{
+    padding:8px;
+    border-radius: 14px;
+    background-color: rgb(227, 230, 233);
+}
+.footer-social-media-icon a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.partner{
+    margin-top: 100px;
+    background-color: white;
+    margin-bottom: 100px;
+    background-color: linen;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; 
+}
+
+.partner-title{
+    margin-top:15px ;
+    margin-left: 0px;
+}
+.partner-title span{
+    color: crimson;
+}
+
+.partners-images img{
+  padding:15px 15px 30px 20px;
+
+}
+
+
+
+
+}
+ 
