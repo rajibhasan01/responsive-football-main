@@ -82,7 +82,7 @@ body{
     
 }
 
-.player-album{
+.player-album, .ranking-table{
     margin: 70px 180px 70px 180px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -100,6 +100,8 @@ body{
     border-radius: 5px;
     
 }
+
+
 .player .image{
     width: 300px;
     height: 256px; 
@@ -128,6 +130,44 @@ body{
     margin-top: 10px;
     
  
+}
+
+/*-----------------------------------
+......Ranking Table List Style.......
+-----------------------------------*/
+.new{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; 
+    background-color: #191970; 
+    color: #ffffff;
+
+}
+
+.contain-info{
+    margin-top: 40%;
+}
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1.3em;
+    min-width: 300px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0,0.15);
+    border-radius:15px;
+    height: 486px;
+}
+
+.content-table thead {
+    background-color: ;
+    color: rgb(116, 112, 112);
+    font-weight: 300;
+    font-size: 0.9em;
+    
+}
+.content-table th, .content-table td{
+    padding: 15px 18px;
+}
+.content-table img{
+    width: 80%;
 }
 
 /*-----------------------------------
@@ -169,6 +209,10 @@ body{
     text-decoration: none;
     color: black;
 }
+
+
+
+
 
 
 /*-----------------------------------
