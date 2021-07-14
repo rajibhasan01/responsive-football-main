@@ -16,13 +16,20 @@ body{
 -----------------------------------*/
 
 .top-banner{
-    background-color: #191970;
-    width: 100%;
+    /* background-color: #191970; */
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
     height: 677px;
     display: flex;
     justify-content: space-evenly;
+    animation: gradient 15s ease infinite;
    
 }
+
+
+
+
+
 .banners{
     display: flex;
     
@@ -50,6 +57,10 @@ body{
 
     
 
+}
+.live-button a{
+    text-decoration: none;
+    color: white;
 }
 
 .live-button .fa-arrow-right{
@@ -170,6 +181,34 @@ body{
     width: 80%;
 }
 
+
+
+
+
+/*-----------------------------------
+........Partner Style Design.........
+-----------------------------------*/
+.partner{
+    margin-top: 100px;
+    background-color: white;
+    margin-bottom: 100px;
+    background-color: linen;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; 
+}
+
+.partner-title{
+    margin-top:15px ;
+}
+.partner-title span{
+    color: crimson;
+}
+
+.partners-images img{
+  padding:15px 10px 30px 10px;
+
+}
+
+
 /*-----------------------------------
 ............Footer Style............
 -----------------------------------*/
@@ -209,7 +248,6 @@ body{
     text-decoration: none;
     color: black;
 }
-
 
 
 
@@ -280,28 +318,21 @@ body{
     100% { background-position: 0 0; }
 }
 
+/*-----------------------------------
+.........Animated Background........
+-----------------------------------*/
 
-
-
-
-/* partners style design */
-.partner{
-    margin-top: 100px;
-    background-color: white;
-    margin-bottom: 100px;
-    background-color: linen;
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; 
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
-.partner-title{
-    margin-top:15px ;
-}
-.partner-title span{
-    color: crimson;
-}
 
-.partners-images img{
-  padding:15px 10px 30px 10px;
-
-}
 
